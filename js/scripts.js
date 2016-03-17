@@ -201,13 +201,13 @@ $('#page3 nav.ajax a.etc').click(ajax_etc);
 -------------------------------------*/
 
 function stage_over() {
-	$('#page2 .me').attr('src', '_img/me.png');
+	$('#page2 .me').attr('src', 'img/me.png');
 }
 
 $('.me').mouseover(stage_over);
 
 function stage_out() {
-	$('#page2 .me').attr('src', '_img/me_kat.png');
+	$('#page2 .me').attr('src', 'img/me_kat.png');
 }
 
 $('.me').mouseout(stage_out);
@@ -218,13 +218,13 @@ $('.me').mouseout(stage_out);
 
 
 function point_over() {
-	$('#art .wall').attr('src', '_img/visualtwo/watchingmona.jpg');
+	$('#art .wall').attr('src', 'img/visualtwo/watchingmona.jpg');
 }
 
 $('.wall').mouseover(point_over);
 
 function point_out() {
-	$('#art .wall').attr('src', '_img/visualtwo/wallart.jpg');
+	$('#art .wall').attr('src', 'img/visualtwo/wallart.jpg');
 }
 
 $('.wall').mouseout(point_out);
@@ -235,13 +235,13 @@ $('.wall').mouseout(point_out);
 
 
 function again_over() {
-	$('#art .drawing').attr('src', '_img/visualtwo/words.jpg');
+	$('#art .drawing').attr('src', 'img/visualtwo/words.jpg');
 }
 
 $('.drawing').mouseover(again_over);
 
 function again_out() {
-	$('#art .drawing').attr('src', '_img/visualtwo/drawing.jpg');
+	$('#art .drawing').attr('src', 'img/visualtwo/drawing.jpg');
 }
 
 $('.drawing').mouseout(again_out);
